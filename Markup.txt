@@ -1,0 +1,13 @@
+Markup.txt
+<header></header>: nagigate, logo
+<footer></footer>: copyrights
+</>: closing tab
+<div></div>: block element
+<span></span>:inline element
+</img>:image
+
+src:source
+hl:header
+p:paragraph
+body needs to be indented twice
+Comment tags <!-- -->

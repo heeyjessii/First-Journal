@@ -11,6 +11,3 @@ hl:header
 p:paragraph
 body needs to be indented twice
 Comment tags <!-- -->
-
-python -m SimpleHTTPServer 
-Localhost:8000

@@ -1,0 +1,45 @@
+header {
+    background-color: #00FFFF;
+    border: 4px;
+    border-style: solid;
+    padding:2px;
+    text-align: center;
+   }
+
+.picture {
+  position: absolute;
+  right: 23%;
+  top: 22%;
+}
+
+.aside{
+  background-color: #00FFFF;
+  border:4px;
+  border-style: solid;
+  width: 15%;
+  height: auto;
+  float: left;
+  margin: 15px;
+}
+
+.content{
+  background-color: #00FFFF;
+  height: auto;
+  border:4px;
+  border-style:solid;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.allposts{
+  background-color:#e3e3e3;
+  width: 70%;
+  float: left;
+}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 600px;
+}

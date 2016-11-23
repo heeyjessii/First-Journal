@@ -39,7 +39,5 @@ header {
 }
 
 footer{
-  position: fixed;
-  bottom: 0px;
-  left: 600px;
+  float: bottom;
 }

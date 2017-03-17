@@ -27,6 +27,23 @@ var jsonDataBody = [
 //   }
 // ]
 
+/*
+Create a function named showAll
+Pass one parameter (data)
+
+Inside our function
+Iterate through data
+  for each object create elements
+  create parent div
+   with class of 'allpost' + object.id
+  create a h2
+    append/add object.title to h2
+  Repeat for every value
+  append all elements + values to the parent div
+  
+
+
+*/
 var simplifiedJSON = [
  {
   "journalEntry" : "1".

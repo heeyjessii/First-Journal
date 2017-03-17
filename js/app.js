@@ -1,32 +1,9 @@
-var jsonDataBody = [
-  {
-    "header": [
-      "h1", 
-      "h4"],
-    "div" : {
-      "class" : "picture",
 
-    }
-  },
-];
+function showAll(data) {
+  console.log(data);
+}
 
-// var firstEntry = [
-//   {
-//     "div" : {
-//       "id" : "first", 
-//       "class" : "content"},
-//     ["h2" : "My First Entry",
-//     "h5" : "Aug 15"],
-//     "div" : {
-//       "class" : "article"},
-//     ["h3" : "Why I took this Class",
-//     "p" : "I wanted to take this class because I thought it was interseting to find out how to code. I had an interseting in coding when I did code.org and scratch. I thought it was cool to keep trying." , 
-//     "h3" : "What I want to get out of this class", 
-//     "p" : ]
-
-//   }
-// ]
-
+showAll(simplifiedJSON);
 /*
 Create a function named showAll
 Pass one parameter (data)
@@ -40,13 +17,12 @@ Iterate through data
     append/add object.title to h2
   Repeat for every value
   append all elements + values to the parent div
-  
-
 
 */
+
 var simplifiedJSON = [
  {
-  "journalEntry" : "1".
+  "journalEntry" : "1",
   "date" : " August 15, 2016", 
   "title" : "Purpose",
   "content" : "Why I took this class and what I want to get out of it",
@@ -102,5 +78,15 @@ var simplifiedJSON = [
     "content" : "Reflections on Aliens",
     "article" : "I really liked doing Aliens. It helped me kind of understand a little more how JavaScript works. We had to test it in jsbin and it didn't work at first, but then me and my partner realized it was because one statement wasn't true so it wouldn't have worked. It was kind of difficult with my partner. I don't know my partner as well so it was weird to interact with him. It was like he was doing most of the work which was kind of hard to understand what I should be doing. I know how to work with people now, but it was really good to do."
   },
-  
+  {
+    "journalEntry" : "9",
+    "date" : "November 21, 2016",
+    "title" : "Verizon app challenge review",
+    "content" : "Reflection's on VAC",
+    "article" : "Our problem was that the sporting event at Waipahu High School wasn't updated on social media as often as we want. If someone can't make the game or wants to see it, they would have to wait till the next morning to find out how the teams did. Our app is focusing on Waipahu High School sporting events being updated frequently during the game so that people know what's happening. It would be like an instagram where you can scroll through different events that's happening so you get those live updates. I would improve our video by starting a little earlier with a specific plan on how we want to get the video done. At the last minute it was hard to plan how we wanted the video to look like and it messed us up a lot. A feature that I would like to add is you get to subscribe which sport you would like to follow with the updates so everytime someone updates that one event you get notifications explaining what in that play had happen. I don't know my teammates as much and didn't have their contact information so it was hard to figure out how to film with everybody's schedule. Next time the thing I would do differently is do it earlier so when time comes to publish the video we don't have to rush and not make it on time because it delays everyone."
+  },
+  {
+    "journalEntry" : "10",
+    "date" : ""
+  }
 ]
